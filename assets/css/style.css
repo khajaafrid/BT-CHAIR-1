@@ -1,0 +1,98 @@
+*{
+    padding: opx;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+p {
+    text-align: justify;
+}
+.header .col-md-4 a {
+    color: black;
+    margin: 14px;
+}
+.col-md-6 .line {
+    width: 40%;
+    height: 2px;
+    background-color: black;
+}
+.d-flex h5 {
+    margin: 0px 10px 0px 0px;
+}
+.circle .btn{
+    width: 25px;
+    height: 25px;
+}
+.chair_content .product-price{
+    margin-top: 30px;
+}
+.cart .col-md-5 .btn {
+    width: 300px;
+}
+.banner {
+    padding-top: 100px;
+}
+.about .head .line-1 {
+    width: 33%;
+    height: 2px;
+    background-color: black;
+}
+.product .head-2 .line-1 {
+    width: 27%;
+    height: 2px;
+    background-color: black;
+}
+.l-1 {
+    width: 34%;
+    height: 1px;
+    background-color: #f1f1f1;
+}
+.l-2 {
+    width: 40%;
+    height: 1px;
+    background-color: #f1f1f1;
+}
+.media a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    color: #fda30e;
+    transition: 0.9s;
+}
+.points h6:hover {
+    color: #fda30e;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+    .body img {
+        width: 100%;
+    }
+    .body .col-md-6 span {
+        font-size: 15px;
+    }
+    .body-2 .col-md-6 p {
+        margin-top: 20px;
+        font-size: small;
+        text-align: justify;
+        word-break: break-all;
+    }
+    .body .col-md-6 p {
+        font-size: small;
+        word-break: break-all;
+    }
+    .about .head p {
+        font-size: small;
+        word-break: break-all;
+    }
+    .about .head .ms-5 {
+        margin-left: 1rem!important;
+    }
+    .product .col-md-4 img {
+        margin-top: 20px;
+    }
+}
